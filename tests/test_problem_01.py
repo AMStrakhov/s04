@@ -4,7 +4,7 @@ from problem_01 import count_strings_lengths
 from .base_test_problem import BaseTestProblem
 
 
-class TestProblem08(BaseTestProblem):
+class TestProblem01(BaseTestProblem):
     _problem_func: Callable = count_strings_lengths
     cases: List[Tuple[List, Dict[int, int], str]] = [
         ([[]], {}, "Empty list"),
